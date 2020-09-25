@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateKPIEventWithCustomDateRange</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e4c39cb8-3ec6-4f59-a8f1-c208cbc5962e</testCaseGuid>
+</TestCaseEntity>
