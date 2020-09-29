@@ -34,9 +34,9 @@ WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/a_Emp
 
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/a_Add New'))
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/input__title'), '-KPI event mid term plan for 2021')
+WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/input__title'), '-KPI event for OCT')
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/textarea_Description_description'), '-KPI event mid term plan for 2021')
+WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/textarea_Description_description'), '-KPI Event for OCT')
 
 WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/input__frequency'), '2')
 
