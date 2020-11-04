@@ -37,10 +37,10 @@ WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWith_
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWith_5_Questions/Page_ReviewMe/a_Add New'))
 
 WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWith_5_Questions/Page_ReviewMe/input__title'), 
-    'KPI event for OCT with 5 Question')
+    'KPI event for OCT with 5 Question for HR Department')
 
 WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWith_5_Questions/Page_ReviewMe/textarea_Description_description'), 
-    'KPI event for OCT with 5 Questions')
+    'KPI event for OCT with 5 Question for HR Department')
 
 WebUI.setText(findTestObject('CreateKPIEvent/CreateKPIEventWith_5_Questions/Page_ReviewMe/input__enddate'), '\'11/29/2020\'')
 

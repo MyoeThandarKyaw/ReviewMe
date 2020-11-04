@@ -42,7 +42,7 @@ WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Qu
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Questions/Page_ReviewMe/tr_1                                       _784152'))
 
 WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Questions/Page_ReviewMe/input_To increase sales revenue ()_q_245_target'), 
-    '20')
+    '18')
 
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Questions/Page_ReviewMe/tr_2                                       _9da8e3'))
 
@@ -52,7 +52,7 @@ WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Qu
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Questions/Page_ReviewMe/tr_2                                       _9da8e3'))
 
 WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Questions/Page_ReviewMe/input_Why is Brand Awareness Important_q_25_90e7c7'), 
-    '20')
+    '18')
 
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Questions/Page_ReviewMe/td'))
 
@@ -60,19 +60,19 @@ WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Qu
     '20')
 
 WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Questions/Page_ReviewMe/input_What is Brand Awareness_q_252_target'), 
-    '20')
+    '18')
 
 WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Questions/Page_ReviewMe/input_How Does Digital Marketing Increase B_69a824'), 
     '20')
 
 WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Questions/Page_ReviewMe/input_How Does Digital Marketing Increase B_57eedf'), 
-    '20')
+    '18')
 
 WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Questions/Page_ReviewMe/input_What Is Business  Management_questionweight'), 
     '20')
 
 WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Questions/Page_ReviewMe/input_What Is Business  Management_q_253_target'), 
-    '20')
+    '18')
 
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/UpdateKPI_on_5_Questions/Page_ReviewMe/input_Total question weight ()_btnSave'))
 

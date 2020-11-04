@@ -18,50 +18,37 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://18.139.119.226:7070/reviewme/users/login')
+WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme/users/login')
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/input_Reviewme Login_username'), 
-    'tnhtun')
+WebUI.click(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Sign in to ReviewMe_username'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/input_Reviewme Login_password'), 
+WebUI.setText(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Sign in to ReviewMe_username'), 'smaye')
+
+WebUI.setEncryptedText(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     'a43CdjUP15hkxLgrareRvw==')
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/button_Login'))
+WebUI.click(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/button_Sign in'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/a_Review'))
+WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/a_Events'))
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/a_Employee Review'))
+WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/a_Add event'))
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/a_Add New'))
+WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/input_Title_title'))
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/input__title'), 
-    '-KPI event plan for end year 2021 (will start November)')
+WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/input_Title_title'), 
+    'KPI Event for HR Development Nov-2020')
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/textarea_Description_description'), 
-    '-KPI event plan for end year 2021 with end date')
+WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/input_Start_startdate'), 
+    '10/31/2020')
 
-WebUI.setText(findTestObject('CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/input__enddate'), '11/29/2020')
-
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/input__frequency'), 
-    '2')
+WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/input_End_enddate'), 
+    '10/31/2021')
 
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/button_Next'))
 
-WebUI.click(findTestObject('CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/input_Groups_btnAll'))
-
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/span_Employment Division'))
-
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/button_Next_1'))
-
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/span_GBS'))
-
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/span_Brand Management'))
-
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/input_Enable scoring_isscoringenabled'))
-
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/button_Next_1_2'))
 
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEventWithCustomDateRange/Page_ReviewMe/button_Save'))
 

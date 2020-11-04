@@ -18,42 +18,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://18.139.119.226:7070/reviewme/users/login')
+WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme/users/login')
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/input_Reviewme Login_username'), 'tnhtun')
+WebUI.click(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Sign in to ReviewMe_username'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/input_Reviewme Login_password'), 'a43CdjUP15hkxLgrareRvw==')
+WebUI.setText(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Sign in to ReviewMe_username'), 'waiwaihlaing')
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/button_Login'))
+WebUI.setEncryptedText(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
+    'a43CdjUP15hkxLgrareRvw==')
+
+WebUI.click(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/button_Sign in'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/a_Review'))
+WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/a_Events'))
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/a_Employee Review'))
+WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/Page_ReviewMe/a_Add event'))
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/a_Add New'))
+//WebUI.click(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Title_title'))
+WebUI.setText(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Title_title'), 'KPI Event for DEV (Nov-2020 to Sep-2021)')
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/input__title'), '-KPI event for OCT')
+WebUI.setText(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/textarea_Optional_description'), 'KPI Event for DEV (Nov-2020 to Sep-2021)')
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/textarea_Description_description'), '-KPI Event for OCT')
+WebUI.click(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/button_Next'))
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/input__frequency'), '2')
+WebUI.click(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/button_Next_1'))
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/button_Next'))
-
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/span_Employment Division'))
-
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/button_Next_1'))
-
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/span_MBA'))
-
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/span_Brand Management'))
-
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/label_Enable scoring'))
-
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/button_Next_1_2'))
-
-//WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/button_Next_1_2_3'))
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/Page_ReviewMe/button_Save'))
+WebUI.click(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/button_Save'))
 
