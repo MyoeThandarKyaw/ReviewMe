@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Reviewme Login_username</name>
+   <name>input_Sign in to ReviewMe_username</name>
    <tag></tag>
-   <elementGuidId>8531aaa3-b2e0-41c2-b50c-7d9bee472152</elementGuidId>
+   <elementGuidId>b5cc732d-db2a-4e54-a177-96bead92a2d9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

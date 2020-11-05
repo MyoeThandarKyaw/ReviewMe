@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Sales Volume</name>
+   <name>a_Set KPIs</name>
    <tag></tag>
-   <elementGuidId>879234b0-e582-4e5b-a807-ec1dd1f71bba</elementGuidId>
+   <elementGuidId>575afe4f-6062-4616-9314-831a1e21a0bb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='kpi_table']/tbody/tr/td[3]</value>
+         <value>(//a[contains(text(),'Set KPIs')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,73 +17,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/reviewme/annualreviewemployeequestion/addkpisetting/16/1091/tab_me</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-primary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                                Sales Volume     
-                                                                   
-                                  
-                            </value>
+      <value>Set KPIs</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;kpi_table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[3]</value>
+      <value>id(&quot;collapse_me_kpi_appraisal&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-footer&quot;]/a[@class=&quot;btn btn-sm btn-primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='kpi_table']/tbody/tr/td[3]</value>
+      <value>//div[@id='collapse_me_kpi_appraisal']/div/div[2]/div[3]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Set KPIs')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='စည်းကမ်းလိုက်နာခြင်း'])[1]/following::td[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='for Corporate'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[1]/following::td[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Set KPIs'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::td[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='For Supporting Unit'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recruitment'])[1]/preceding::td[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Set KPIs'])[3]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Sales Volume']/parent::*</value>
+      <value>//a[contains(@href, '/reviewme/annualreviewemployeequestion/addkpisetting/16/1091/tab_me')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[3]</value>
+      <value>//div[2]/div[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

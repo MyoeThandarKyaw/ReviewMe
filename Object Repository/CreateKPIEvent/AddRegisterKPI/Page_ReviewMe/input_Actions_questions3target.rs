@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Training hours per employee per year _c98706</name>
+   <name>input_Actions_questions3target</name>
    <tag></tag>
-   <elementGuidId>f4b99251-59df-4a95-81c4-e667487b6e97</elementGuidId>
+   <elementGuidId>716ca8dd-4eba-4d80-a7fa-9d254930700b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='q_180_target']</value>
+         <value>//input[@name='questions[3][target]']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,7 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control target</value>
+      <value>form-control kpi-target</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>questions[3][target]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,45 +48,31 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>q_180_target</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Enter</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;q_180_target&quot;)</value>
+      <value>id(&quot;LearningandGrowth_table&quot;)/tbody[1]/tr[1]/td[3]/input[@class=&quot;form-control kpi-target&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='q_180_target']</value>
+      <value>//input[@name='questions[3][target]']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='kpi_table']/tbody/tr[8]/td[4]/input</value>
+      <value>//table[@id='LearningandGrowth_table']/tbody/tr/td[3]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[8]/td[4]/input</value>
+      <value>//div[11]/div/table/tbody/tr/td[3]/input</value>
    </webElementXpaths>
 </WebElementEntity>

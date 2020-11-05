@@ -18,37 +18,47 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://18.139.119.226:7070/reviewme/users/login')
+WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme/users/login')
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Reviewme Login_username'), 
-    'tnhtun')
+WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
+    'yelwinaung')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Reviewme Login_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     'a43CdjUP15hkxLgrareRvw==')
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/button_Login'))
+WebUI.click(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/a_4'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/a_3'))
+WebUI.scrollToPosition(100, 100)
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/a_-Review Employees Performance without score'))
+WebUI.click(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/a_Set KPIs'))
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/a_Update KPIs'))
+WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Actions_questions0questionname'), 
+    'How do you set an example to those for your team members?')
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/a_Add registered KPIs'))
+WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Actions_questions1questionname'), 
+    'How do you lead through change?')
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/td_Performance score of new employees withi_40f4af'))
+WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Actions_questions2questionname'), 
+    'How would you go about getting cohesion among a team who disagree?')
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/td_Training hours per employee per year (ho_603e5f'))
+WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Actions_questions3questionname'), 
+    'What sort of leader would your team say that you are?')
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Registered KPIs_btn_select_kpi'))
+WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Actions_questions0target'), 
+    '25')
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Training hours per employee per year _c98706'), 
-    '23')
+WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Actions_questions1target'), 
+    '25')
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_ increase in the rate of productivity_54bb51'), 
-    '23')
+WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Actions_questions2target'), 
+    '25')
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Total question weight ()_btnSave'))
+WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Actions_questions3target'), 
+    '25')
+
+WebUI.click(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Add KPI_btnSave'))
+
+WebUI.click(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/button_OK'))
 

@@ -37,17 +37,17 @@ WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent_Chan
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent_Change_Supervisor/Page_ReviewMe/Page_ReviewMe/input_Title_title'))
 
 WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent_Change_Supervisor/Page_ReviewMe/Page_ReviewMe/input_37'), 
-    'For Business Unit')
+    'For HR development team')
 
 WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent_Change_Supervisor/Page_ReviewMe/Page_ReviewMe/textarea_Optional_description'), 
-    'For Business Unit')
+    'For HR development team')
 
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent_Change_Supervisor/Page_ReviewMe/Page_ReviewMe/button_Next'))
 
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent_Change_Supervisor/Page_ReviewMe/Page_ReviewMe/a_Reporting officer_yui_3_6_0_1_1604462263117_346'))
 
 WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent_Change_Supervisor/Page_ReviewMe/Page_ReviewMe/input_Search_yui_3_6_0_1_1604399389274_370'), 
-    'Daw Me Me Win')
+    'Lin')
 
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent_Change_Supervisor/Page_ReviewMe/Page_ReviewMe/td_Assistant Head'))
 

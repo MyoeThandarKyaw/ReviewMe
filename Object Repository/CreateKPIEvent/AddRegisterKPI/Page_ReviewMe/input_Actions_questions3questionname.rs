@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Training hours per employee per year (ho_603e5f</name>
+   <name>input_Actions_questions3questionname</name>
    <tag></tag>
-   <elementGuidId>7e189c9f-d491-44c9-b2eb-10e41569aa53</elementGuidId>
+   <elementGuidId>1bf96be4-1f23-44e2-bc3e-fcc67e30a4b9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@id='row_181']/td</value>
+         <value>//input[@name='questions[3][questionname]']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,34 +17,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select-checkbox dtr-control</value>
+      <value>form-control kpi-title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>questions[3][questionname]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;row_181&quot;)/td[@class=&quot;select-checkbox dtr-control&quot;]</value>
+      <value>id(&quot;LearningandGrowth_table&quot;)/tbody[1]/tr[1]/td[2]/input[@class=&quot;form-control kpi-title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='questions[3][questionname]']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='row_181']/td</value>
+      <value>//table[@id='LearningandGrowth_table']/tbody/tr/td[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div/div[2]/div/table/tbody/tr[5]/td</value>
+      <value>//div[11]/div/table/tbody/tr/td[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>
