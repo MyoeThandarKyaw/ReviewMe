@@ -3,11 +3,11 @@
    <description></description>
    <name>button_Yes go ahead</name>
    <tag></tag>
-   <elementGuidId>7e25427b-0378-42b9-b2d1-1fd690348411</elementGuidId>
+   <elementGuidId>50661a98-a824-4108-a9ed-b934101eda85</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <value>//*/text()[normalize-space(.)='Yes, go ahead.']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Actions_questions0target</name>
+   <name>input_Achievement_q_663</name>
    <tag></tag>
-   <elementGuidId>e186861d-631b-4015-9444-d22ed6c6f6f6</elementGuidId>
+   <elementGuidId>c166d3d0-7f1f-4720-9e4e-95fa3ee42d85</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='questions[0][target]']</value>
+         <value>//div[25]/div/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,6 +20,13 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control achievement</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
@@ -29,50 +36,50 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>min</name>
       <type>Main</type>
-      <value>form-control kpi-target</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>questions[0][target]</value>
+      <value>q_663</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>min</name>
+      <name>id</name>
       <type>Main</type>
-      <value>0</value>
+      <value>q_663</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Financial_table&quot;)/tbody[1]/tr[1]/td[3]/input[@class=&quot;form-control kpi-target&quot;]</value>
+      <value>id(&quot;q_663&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='questions[0][target]']</value>
+      <value>//input[@id='q_663']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='Financial_table']/tbody/tr/td[3]/input</value>
+      <value>//div[@id='page-wrapper']/div[25]/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[3]/input</value>
+      <value>//div[25]/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

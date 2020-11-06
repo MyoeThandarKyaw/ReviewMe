@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Actions_questions3questionname</name>
+   <name>a_Direct reports3</name>
    <tag></tag>
-   <elementGuidId>23f06d92-8bfb-4edf-8b01-c4ceecfa7005</elementGuidId>
+   <elementGuidId>e26105c0-9e77-47bd-ac29-8d659b114a01</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='questions[3][questionname]']</value>
+         <value>//div[@id='page-wrapper']/div[2]/div/div/div/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,55 +17,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>text</value>
+      <value>#tab_direct_reports</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-toggle</name>
       <type>Main</type>
-      <value>form-control kpi-title</value>
+      <value>tab</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>text</name>
       <type>Main</type>
-      <value>questions[3][questionname]</value>
+      <value>Direct reports 3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;LearningandGrowth_table&quot;)/tbody[1]/tr[1]/td[2]/input[@class=&quot;form-control kpi-title&quot;]</value>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-heading&quot;]/ul[@class=&quot;nav nav-pills&quot;]/li[2]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@name='questions[3][questionname]']</value>
+      <value>//div[@id='page-wrapper']/div[2]/div/div/div/ul/li[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//table[@id='LearningandGrowth_table']/tbody/tr/td[2]/input</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#tab_direct_reports')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/div/table/tbody/tr/td[2]/input</value>
+      <value>//div/div/div/ul/li[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

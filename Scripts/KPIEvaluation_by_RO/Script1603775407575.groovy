@@ -18,45 +18,36 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://18.139.119.226:7070/reviewme/users/login')
+WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme/users/login')
 
-WebUI.setText(findTestObject('null'), 
-    'tnhtun')
+WebUI.setText(findTestObject('Object Repository/KPI_Evaluation_by_RO/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
+    'waiwaihlaing')
 
-WebUI.setEncryptedText(findTestObject('null'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/KPI_Evaluation_by_RO/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     'a43CdjUP15hkxLgrareRvw==')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/KPI_Evaluation_by_RO/Page_ReviewMe/button_Sign in'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/KPI_Evaluation_by_RO/Page_ReviewMe/a_Direct reports3'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/KPI_Evaluation_by_RO/Page_ReviewMe/a_Evaluate'))
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Object Repository/KPI_Evaluation_by_RO/Page_ReviewMe/textarea_496'), '\r\nGrate! go ahead')
 
-WebUI.setText(findTestObject('null'), '23')
+WebUI.setText(findTestObject('Object Repository/KPI_Evaluation_by_RO/Page_ReviewMe/textarea_496_1'), '\nGrate! go ahead')
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Object Repository/KPI_Evaluation_by_RO/Page_ReviewMe/textarea_496_1_2'), '\nGrate! go ahead')
 
-WebUI.setText(findTestObject('null'), 'Awareness Important')
+WebUI.setText(findTestObject('Object Repository/KPI_Evaluation_by_RO/Page_ReviewMe/textarea_496_1_2_3'), '\nGrate! go ahead')
+//
+//WebUI.setText(findTestObject('KPI_Evaluation_by_RO/Page_ReviewMe/Page_ReviewMe/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset'), 
+//    'Grate! go ahead')
 
-WebUI.setText(findTestObject('null'), '23')
+WebUI.click(findTestObject('Object Repository/KPI_Evaluation_by_RO/Page_ReviewMe/input_Elements path_btnSubmit'))
 
-WebUI.setText(findTestObject('null'), 'Brand Awareness')
+WebUI.click(findTestObject('Object Repository/KPI_Evaluation_by_RO/Page_ReviewMe/button_Yes go ahead'))
 
-WebUI.setText(findTestObject('null'), '23')
-
-WebUI.setText(findTestObject('null'), 'Digital Marketing')
-
-WebUI.setText(findTestObject('null'), '23')
-
-WebUI.setText(findTestObject('null'), 'career goal')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/KPI_Evaluation_by_RO/Page_ReviewMe/button_OK'))
 

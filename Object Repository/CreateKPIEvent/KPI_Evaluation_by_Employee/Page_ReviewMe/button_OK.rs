@@ -3,11 +3,11 @@
    <description></description>
    <name>button_OK</name>
    <tag></tag>
-   <elementGuidId>7ee90ec4-881f-4cf0-937f-df6aa3a7ab01</elementGuidId>
+   <elementGuidId>d991f46c-aa54-420c-a1f0-88b91f5c01ee</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

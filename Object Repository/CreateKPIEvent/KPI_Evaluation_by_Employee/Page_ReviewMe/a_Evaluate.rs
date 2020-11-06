@@ -3,11 +3,11 @@
    <description></description>
    <name>a_Evaluate</name>
    <tag></tag>
-   <elementGuidId>7f297b7a-37fb-46fb-abfa-bd4308082f6e</elementGuidId>
+   <elementGuidId>7a06facd-11c9-473b-89da-a7fa0219ab74</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Evaluate']/parent::*</value>
+         <value>//a[contains(text(),'Evaluate')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/reviewme/reviewpage/selfevaluatekpiappraisal/1/40012/40031</value>
+      <value>/reviewme/reviewpage/selfevaluatekpiappraisal/14/10/767</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='KPI Event for HR Development team (Dec-2020 to Sep'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KPI Event for DEV (Nov-2020 to Sep-2021)'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='KPI Event for HR Development team (Oct-2020 to Sep'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='for Corporate'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/reviewme/reviewpage/selfevaluatekpiappraisal/1/40012/40031')]</value>
+      <value>//a[contains(@href, '/reviewme/reviewpage/selfevaluatekpiappraisal/14/10/767')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
