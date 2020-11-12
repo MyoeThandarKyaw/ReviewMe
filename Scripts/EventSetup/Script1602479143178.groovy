@@ -20,33 +20,33 @@ import com.kms.katalon.core.testdata.InternalData as InternalData
 InternalData data = findTestData('login_data')
 
 for (def index : (0..data.getRowNumbers() - 1)) {
+    WebUI.openBrowser('')
 
-WebUI.openBrowser('')
+    WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-test-ato/review/addkpiappraisal')
 
-WebUI.navigateToUrl('http://18.139.119.226:7070/reviewme/users/login')
+    WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
+        'llhtun')
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'wwhlaing')
+    WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
+        'Root@123')
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
-    '1qaz2wsx')
+    WebUI.click(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/button_Sign in'))
+    WebUI.maximizeWindow()
 
-WebUI.maximizeWindow()
+    WebUI.click(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/a_Events'))
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/a_Events'))
+    WebUI.click(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/a_Add New'))
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/a_Add New'))
+    WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/input__title'), 'KPI(12-Nov-2020/12-Nov-2021)for all emp')
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/input__title'), 'KPI(13-Oct-2020/13-Oct-2021)for all emp')
+    WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/textarea_Description_description'), 
+        'KPI(12-Nov-2020/12-Nov-2021)for all emp')
 
-WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/textarea_Description_description'), 
-    'KPI(13-Oct-2020/13-Oct-2021)for all emp')
+    WebUI.click(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/button_Next'))
+    WebUI.click(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/button_Next_1'))
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/button_Next_1'))
-
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/button_Save'))
+    WebUI.click(findTestObject('Object Repository/CreateKPIEvent/EventSetup/Page_ReviewMe/button_Save'))
 }
+

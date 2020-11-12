@@ -32,7 +32,7 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent_Change_Supervisor/Page_ReviewMe/Page_ReviewMe/a_Events'))
 
-WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent_Change_Supervisor/Page_ReviewMe/Page_ReviewMe/a_Add event'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent_Change_Supervisor/Page_ReviewMe/Page_ReviewMe/input_Title_title'))
 

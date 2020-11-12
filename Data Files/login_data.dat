@@ -8,17 +8,16 @@
    <dataFileGUID>72113a41-5a8e-45a8-9346-d3520e753059</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>wwhlaing 1qaz2wsx</data>
-   <data>tnhtun 1qaz2wsx</data>
+   <data>llhtun Root%40123</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>user_name</name>
-      <size>2</size>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>pwd</name>
-      <size>2</size>
+      <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

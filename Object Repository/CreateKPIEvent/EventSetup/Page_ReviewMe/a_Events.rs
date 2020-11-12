@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='side-menu']/li[6]/a</value>
+         <value>//a[contains(text(),'Events')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

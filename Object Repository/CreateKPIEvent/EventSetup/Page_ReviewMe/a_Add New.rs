@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='tab_kpi_appraisal']/div/a</value>
+         <value>(//a[contains(text(),'Add event')])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -61,7 +61,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'Add New')])[2]</value>
+      <value>(//a[contains(text(),'Add event')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

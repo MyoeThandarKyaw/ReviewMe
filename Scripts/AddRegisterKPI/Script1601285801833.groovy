@@ -18,10 +18,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme/users/login')
+WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-test/home')
 
 WebUI.setText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'yelwinaung')
+    'memewin')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/CreateKPIEvent/AddRegisterKPI/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     'a43CdjUP15hkxLgrareRvw==')
