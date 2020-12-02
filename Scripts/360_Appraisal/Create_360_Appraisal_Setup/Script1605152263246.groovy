@@ -36,10 +36,10 @@ WebUI.click(findTestObject('360_Appraisal/Create_360_Appraisal_Setup/Page_Review
 
 WebUI.click(findTestObject('Object Repository/360_Appraisal/Create_360_Appraisal_Setup/Page_ReviewMe/input__title'))
 
-WebUI.setText(findTestObject('Object Repository/360_Appraisal/Create_360_Appraisal_Setup/Page_ReviewMe/input_78'), '360 Appraisal for Software_CPSS_IDS')
+WebUI.setText(findTestObject('Object Repository/360_Appraisal/Create_360_Appraisal_Setup/Page_ReviewMe/input_78'), '360 Appraisal for (ATO employees) 2020')
 
 WebUI.setText(findTestObject('Object Repository/360_Appraisal/Create_360_Appraisal_Setup/Page_ReviewMe/textarea_Description_description'), 
-    '360 Appraisal for Software_CPSS_IDS')
+    '360 Appraisal for (ATO employees)')
 
 WebUI.click(findTestObject('Object Repository/360_Appraisal/Create_360_Appraisal_Setup/Page_ReviewMe/svg__svg-inline--fa fa-user fa-w-14'))
 

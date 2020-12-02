@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='360 Review for Software Team']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='360 Review for QCST (2020)']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

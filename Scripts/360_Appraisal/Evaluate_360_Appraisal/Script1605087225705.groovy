@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-test-ato/users/login')
 
 WebUI.setText(findTestObject('Object Repository/360_Appraisal/Evaluate_360_Appraisal/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'lwwmmaung')
+    'Zwe Ko Phyo')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/360_Appraisal/Evaluate_360_Appraisal/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     'rXz5fG76N1x/0XfTppooEQ==')
@@ -39,6 +39,8 @@ WebUI.click(findTestObject('Object Repository/360_Appraisal/Evaluate_360_Apprais
 WebUI.click(findTestObject('Object Repository/360_Appraisal/Evaluate_360_Appraisal/Page_ReviewMe/input_Once promise can complete and deliver_8e31bc'))
 
 WebUI.click(findTestObject('Object Repository/360_Appraisal/Evaluate_360_Appraisal/Page_ReviewMe/input_Good in time management and can sched_bdac60'))
+
+WebUI.click(findTestObject('360_Appraisal/Evaluate_360_Appraisal/Page_ReviewMe/Page_ReviewMe/input_Calm and patient even facing pressure situation_q_150'))
 
 WebUI.click(findTestObject('Object Repository/360_Appraisal/Evaluate_360_Appraisal/Page_ReviewMe/input_Honest and always share ideas and inf_ded23e'))
 

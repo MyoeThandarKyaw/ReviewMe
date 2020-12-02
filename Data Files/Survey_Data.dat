@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Survey_Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>d49f6786-c537-490a-9ceb-af03f5e65fe4</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>smaye Root%40123</data>
+   <data>hlkhant Root%40123</data>
+   <data>mttkyaw Root%40123</data>
+   <data>sslin Root%40123</data>
+   <data>lwwmmaung Root%40123</data>
+   <data>kkzin Root%40123</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>user_name</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

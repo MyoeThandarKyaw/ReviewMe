@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='dataTables-example']/tbody/tr[1]/td[5]/a</value>
+         <value>//table[@id='dataTables-example']/tbody/tr[7]/td[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
