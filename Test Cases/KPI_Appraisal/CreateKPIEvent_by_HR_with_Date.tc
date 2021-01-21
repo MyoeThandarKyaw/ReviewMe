@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateKPIEvent_by_HR_with_Date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc44fe3b-728b-45ba-9a21-58283b74c9ba</testCaseGuid>
+</TestCaseEntity>

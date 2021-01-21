@@ -24,8 +24,7 @@ WebUI.click(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Si
 
 WebUI.setText(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Sign in to ReviewMe_username'), 'llhtun')
 
-WebUI.setText(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
-    'Root@123')
+WebUI.setText(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Sign in to ReviewMe_password'), 'Root@123')
 
 WebUI.click(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/button_Sign in'))
 
@@ -36,9 +35,9 @@ WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent/Page
 WebUI.click(findTestObject('Object Repository/CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/Page_ReviewMe/a_Add event'))
 
 //WebUI.click(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Title_title'))
-WebUI.setText(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Title_title'), 'KPI Event for QCST (Nov-2020 to Sep-2021)')
+WebUI.setText(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/input_Title_title'), 'KPI Event for QCST (Oct-2020 to Sep-2021)')
 
-WebUI.setText(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/textarea_Optional_description'), 'KPI Event for QCST  (Nov-2020 to Sep-2021)')
+WebUI.setText(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/textarea_Optional_description'), 'KPI Event for QCST (Oct-2020 to Sep-2021)')
 
 WebUI.click(findTestObject('CreateKPIEvent/CreateKPIEvent/Page_ReviewMe/button_Next'))
 
