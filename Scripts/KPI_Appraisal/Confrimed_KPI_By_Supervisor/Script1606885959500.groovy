@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -34,11 +35,15 @@ WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Confirmed_KPI_By_Sup
 
 WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Confirmed_KPI_By_Supervisor/Page_ReviewMe/a_Direct reports1'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Confirmed_KPI_By_Supervisor/Page_ReviewMe/a_Review KPIs'))
 
 WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Confirmed_KPI_By_Supervisor/Page_ReviewMe/input_Add KPI_btnConfirm'))
 
 WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Confirmed_KPI_By_Supervisor/Page_ReviewMe/button_Yes go ahead'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Confirmed_KPI_By_Supervisor/Page_ReviewMe/button_OK'))
 

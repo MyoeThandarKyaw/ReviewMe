@@ -15,13 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-test-ato/users/login')
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'Zwe Ko Phyo')
+    'tdlwin')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     'rXz5fG76N1x/0XfTppooEQ==')
@@ -64,5 +65,7 @@ WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/P
 
 WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/button_Yes go ahead'))
 
-WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/button_OK'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/button_OK'))
 
