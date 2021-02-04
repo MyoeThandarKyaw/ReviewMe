@@ -1,99 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_497_1</name>
+   <name>div_No. of iterations</name>
    <tag></tag>
-   <elementGuidId>6ca31981-301d-43d3-8ca2-8e080d34c4f7</elementGuidId>
+   <elementGuidId>e4ca3284-b600-4113-a530-7dfaa08184fc</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div.col-sm-6 > div.row</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='rocomment_1233']</value>
+         <value>//div[@id='step-1']/div/div/div[2]/div[2]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ro-comment</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>rocomment_769</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>rocomment_769</value>
+      <value>row</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>497</value>
+      <value>
+                                        
+                                            No. of iterations
+                                        
+                                        
+                                            
+                                                                                                
+                                            
+                                        
+                                    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;rocomment_769&quot;)</value>
+      <value>id(&quot;step-1&quot;)/div[@class=&quot;col-sm-12 well&quot;]/div[@class=&quot;panel panel-primary&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;row&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//textarea[@id='rocomment_769']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tab_active_questions']/div[15]/div[2]/div/textarea</value>
+      <value>//div[@id='step-1']/div/div/div[2]/div[2]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Reporting officer', &quot;'&quot;, 's comment')])[4]/following::textarea[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Set visibilty on reviewees', &quot;'&quot;, ' self-evaluations')])[1]/following::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Employee', &quot;'&quot;, 's comment')])[4]/following::textarea[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='End'])[1]/following::div[12]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='How would you go about getting cohesion among a team who disagree?'])[1]/preceding::textarea[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Iteration #1 label'])[1]/preceding::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[15]/div[2]/div/textarea</value>
+      <value>//div[2]/div[2]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

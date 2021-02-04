@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='t_823']</value>
+         <value>//textarea[@id='t_1234']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

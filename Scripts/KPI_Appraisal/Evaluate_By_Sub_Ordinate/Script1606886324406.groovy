@@ -19,13 +19,13 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-test-ato/users/login')
+WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-gbs-test/home')
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Evaluate_By_Sub_Ordinate/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'Zwe Ko Phyo')
+    'nannmithanthan')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/KPI_Appraisal/Evaluate_By_Sub_Ordinate/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
-    'rXz5fG76N1x/0XfTppooEQ==')
+WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Evaluate_By_Sub_Ordinate/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
+    '1qaz2wsx')
 
 WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Evaluate_By_Sub_Ordinate/Page_ReviewMe/button_Sign in'))
 

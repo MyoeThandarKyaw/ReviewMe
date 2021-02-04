@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Review KPIs')]</value>
+         <value>//*/text()[normalize-space(.)='Review KPIs']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

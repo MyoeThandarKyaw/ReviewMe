@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_497_1</name>
+   <name>textarea_Optional_description</name>
    <tag></tag>
-   <elementGuidId>6ca31981-301d-43d3-8ca2-8e080d34c4f7</elementGuidId>
+   <elementGuidId>a2074934-fbb3-4472-a2b3-816a8f68c434</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#description</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='rocomment_1233']</value>
+         <value>//textarea[@id='description']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -20,80 +24,80 @@
       <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control ro-comment</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>rocomment_769</value>
+      <value>description</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>rocomment_769</value>
+      <value>description</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>497</value>
+      <value>500</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>changeDescription(this.value)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;rocomment_769&quot;)</value>
+      <value>id(&quot;description&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='rocomment_769']</value>
+      <value>//textarea[@id='description']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tab_active_questions']/div[15]/div[2]/div/textarea</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Reporting officer', &quot;'&quot;, 's comment')])[4]/following::textarea[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Employee', &quot;'&quot;, 's comment')])[4]/following::textarea[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='How would you go about getting cohesion among a team who disagree?'])[1]/preceding::textarea[1]</value>
+      <value>//div[@id='step-1']/div/div/div[2]/div/div/div[3]/div[2]/div/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[15]/div[2]/div/textarea</value>
+      <value>//textarea</value>
    </webElementXpaths>
 </WebElementEntity>

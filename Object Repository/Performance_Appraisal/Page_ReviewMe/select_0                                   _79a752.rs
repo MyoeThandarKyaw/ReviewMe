@@ -1,99 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_497_1</name>
+   <name>select_0                                   _79a752</name>
    <tag></tag>
-   <elementGuidId>6ca31981-301d-43d3-8ca2-8e080d34c4f7</elementGuidId>
+   <elementGuidId>3d35d4d8-7fc7-4af7-ac3f-bea0f197131f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;questionWeight[0][weight]&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='rocomment_1233']</value>
+         <value>//select[@name='questionWeight[0][weight]']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ro-comment</value>
+      <value>form-control input-sm</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>rocomment_769</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>rocomment_769</value>
+      <value>questionWeight[0][weight]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>497</value>
+      <value>
+                                    0%
+                                    12.5%
+                                    25%
+                                    37.5%
+                                    50%
+                                    62.5%
+                                    75%
+                                    87.5%
+                                    100%
+                                </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;rocomment_769&quot;)</value>
+      <value>id(&quot;question_container&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-2&quot;]/select[@class=&quot;form-control input-sm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='rocomment_769']</value>
+      <value>//select[@name='questionWeight[0][weight]']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tab_active_questions']/div[15]/div[2]/div/textarea</value>
+      <value>//div[@id='question_container']/div[2]/div[3]/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Reporting officer', &quot;'&quot;, 's comment')])[4]/following::textarea[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ကိုယ်ခန္ဓာကြံ့ခိုင်မှုရှိသည်။ (သို့) ကျန်းမာရေးကောင်းသည်။'])[2]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Employee', &quot;'&quot;, 's comment')])[4]/following::textarea[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ကိုယ်ရည်ကိုယ်သွေး'])[22]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='How would you go about getting cohesion among a team who disagree?'])[1]/preceding::textarea[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='မိမိ၏ Team ကို တန်ဖိုးထားသည်။'])[2]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='မိမိ၏ ကုမ္ပဏီကို တန်ဖိုးထားသည်။'])[2]/preceding::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[15]/div[2]/div/textarea</value>
+      <value>//div[3]/select</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Achievement_q_763</name>
+   <name>input_Iteration 1 label_iterationNames</name>
    <tag></tag>
-   <elementGuidId>bf1ed157-38b6-4962-8110-e976b578927d</elementGuidId>
+   <elementGuidId>693fe360-5fc4-4ef9-842b-0400e2bdaaaa</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;iterationNames[]&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//input[@id='q_1234']</value>
+         <value>//input[@name='iterationNames[]']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -20,66 +24,52 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control achievement</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>min</name>
+      <name>class</name>
       <type>Main</type>
-      <value>0</value>
+      <value>form-control iteration-names</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>q_763</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>q_763</value>
+      <value>iterationNames[]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;q_763&quot;)</value>
+      <value>id(&quot;iteration_name_container&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/input[@class=&quot;form-control iteration-names&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='q_763']</value>
+      <value>//input[@name='iterationNames[]']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tab_active_questions']/div[25]/div/div/input</value>
+      <value>//div[@id='iteration_name_container']/div/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[25]/div/div/input</value>
+      <value>//div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

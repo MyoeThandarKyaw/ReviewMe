@@ -19,13 +19,13 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-test-ato/users/login')
+WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-gbs-test/home')
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'llhtun')
+    'kyawmyahan')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
-    'rXz5fG76N1x/0XfTppooEQ==')
+WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
+    '1qaz2wsx')
 
 WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_ReviewMe/button_Sign in'))
 
@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_R
 
 WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_ReviewMe/a_Indirect reports5'))
 
-WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_ReviewMe/a_View'))
+WebUI.click(findTestObject('KPI_Appraisal/Comment_By_CO/Page_ReviewMe/Page_ReviewMe/Page_ReviewMe/a_View'))
 
 //WebUI.scrollToElement(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_ReviewMe/Page_ReviewMe/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset'), 
 //    3)

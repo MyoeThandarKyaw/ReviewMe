@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[8]/div/table/tbody/tr[4]/td[7]/a</value>
+         <value>(//a[contains(text(),'View')])[52]</value>
       </entry>
       <entry>
          <key>CSS</key>
