@@ -20,7 +20,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme/users/login')
 
-WebUI.setText(findTestObject('Object Repository/CO_Confirm/Page_ReviewMe/input_Sign in to ReviewMe_username'), 'tinnilar')
+WebUI.setText(findTestObject('Object Repository/CO_Confirm/Page_ReviewMe/input_Sign in to ReviewMe_username'), 'memekyaw')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/CO_Confirm/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     'a43CdjUP15hkxLgrareRvw==')

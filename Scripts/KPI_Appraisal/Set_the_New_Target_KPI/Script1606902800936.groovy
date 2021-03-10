@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-gbs-test/home')
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Set_the_New_Target_KPI/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'nannmithanthan')
+    'zayyarnaingL1')
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Set_the_New_Target_KPI/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     '1qaz2wsx')

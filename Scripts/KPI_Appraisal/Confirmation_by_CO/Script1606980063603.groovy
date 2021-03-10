@@ -19,10 +19,10 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-gbs-test/home')
+WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/review/addkpiappraisal')
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'kyawmyahan')
+    'sumyathtet')
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     '1qaz2wsx')
@@ -35,14 +35,18 @@ WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_R
 
 WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_ReviewMe/a_Indirect reports5'))
 
-WebUI.click(findTestObject('KPI_Appraisal/Comment_By_CO/Page_ReviewMe/Page_ReviewMe/Page_ReviewMe/a_View'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('KPI_Appraisal/Comment_By_CO/IFFramObj_For_Microfinance/Page_ReviewMe/a_View'))
+
+WebUI.scrollToPosition(600, 600)
 
 //WebUI.scrollToElement(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_ReviewMe/Page_ReviewMe/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset'), 
 //    3)
-WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/IFrameObject/Page_ReviewMe/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset'))
+WebUI.click(findTestObject('KPI_Appraisal/Comment_By_CO/IFFramObj_For_Microfinance/Page_ReviewMe/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset'))
 
 //WebUI.sendKeys(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_ReviewMe/Page_ReviewMe/html_Rich Text Editor'), 'Prepare')
-WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/IFrameObject/Page_ReviewMe/html_Rich Text Editor'), 
+WebUI.setText(findTestObject('KPI_Appraisal/Comment_By_CO/IFFramObj_For_Microfinance/Page_ReviewMe/html_Rich Text Editor'), 
     'Prepare Weekly and Monthly')
 
 WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Comment_By_CO/Page_ReviewMe/button_Save'))

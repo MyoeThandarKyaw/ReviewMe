@@ -19,10 +19,10 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-gbs-test/home')
+WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/review/addkpiappraisal')
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'nannmithanthan')
+    'zayyarnaingL1')
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     '1qaz2wsx')
@@ -31,9 +31,11 @@ WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/P
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/a_Home'))
+WebUI.click(findTestObject('KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/Page_ReviewMe/a_My tasks'))
 
-WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/a_Set KPIs'))
+WebUI.click(findTestObject('KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/Page_ReviewMe/button_26 Feb 202126 Feb 2022'))
+
+WebUI.click(findTestObject('KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/Page_ReviewMe/Page_ReviewMe/a_Start'))
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/input_Actions_questions0questionname'), 
     'What were your starting and final levels of compensation?')
@@ -41,17 +43,26 @@ WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/input_Actions_questions0target'), 
     '20')
 
+WebUI.setText(findTestObject('KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/Page_ReviewMe/input_Actions_questions0unit'), 
+    'marks')
+
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/input_Actions_questions1questionname'), 
     'When you come across any bad news then how will you put it in front of your team?')
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/input_Actions_questions1target'), 
     '20')
 
+WebUI.setText(findTestObject('KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/Page_ReviewMe/input_Actions_questions1unit'), 
+    'marks')
+
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/input_Actions_questions2questionname'), 
     'How would you go about getting cohesion among a team who disagree?')
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/input_Actions_questions2target'), 
     '20')
+
+WebUI.setText(findTestObject('KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/Page_ReviewMe/input_Actions_questions2unit'), 
+    'marks')
 
 WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/input_Actions_questions3questionname'))
 
@@ -60,6 +71,9 @@ WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/input_Actions_questions3target'), 
     '20')
+
+WebUI.setText(findTestObject('KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/Page_ReviewMe/input_Actions_questions3unit'), 
+    'marks')
 
 WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Set_the_target_KPI/Page_ReviewMe/input_Add KPI_btnConfirm'))
 

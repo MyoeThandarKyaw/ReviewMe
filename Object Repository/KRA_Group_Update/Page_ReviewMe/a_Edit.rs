@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='kra_group_table']/tbody/tr[7]/td[5]/a</value>
+         <value>//table[@id='kra_group_table']/tbody/tr[6]/td[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

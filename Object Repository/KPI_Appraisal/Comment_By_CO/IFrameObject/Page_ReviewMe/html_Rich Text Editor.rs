@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body</value>
+         <value>//html//body</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -61,7 +61,7 @@ img,input,textarea{cursor:default}.cke_editable{cursor:text}.cke_editable img,.c
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/KPI_Appraisal/Comment_By_CO/IFrameObject/Page_ReviewMe/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset</value>
+      <value>Object Repository/KPI_Appraisal/Comment_By_CO/IFrameObject/Page_ReviewMe/Page_ReviewMe/Page_ReviewMe/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

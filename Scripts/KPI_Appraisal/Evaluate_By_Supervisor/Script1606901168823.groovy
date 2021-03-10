@@ -19,12 +19,12 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-gbs-test/home')
+WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/annualreviewemployeequestion/addkpisetting/18/3282/tab_me')
 
 WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Evaluate_By_Supervisor/Page_ReviewMe/input_Sign in to ReviewMe_username'))
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Evaluate_By_Supervisor/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'aenthtookhaung')
+    'sumyathtet')
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Evaluate_By_Supervisor/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     '1qaz2wsx')
@@ -33,11 +33,11 @@ WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Evaluate_By_Supervis
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Evaluate_By_Supervisor/Page_ReviewMe/a_Home'))
+WebUI.click(findTestObject('KPI_Appraisal/Evaluate_By_Supervisor/Page_ReviewMe/Page_ReviewMe/a_My tasks'))
 
-WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Evaluate_By_Supervisor/Page_ReviewMe/a_Direct reports1'))
+WebUI.click(findTestObject('KPI_Appraisal/Evaluate_By_Supervisor/Page_ReviewMe/Page_ReviewMe/button_26 Feb 202126 Feb 2022'))
 
-WebUI.click(findTestObject('Object Repository/KPI_Appraisal/Evaluate_By_Supervisor/Page_ReviewMe/a_Evaluate'))
+WebUI.click(findTestObject('KPI_Appraisal/Evaluate_By_Supervisor/a_Start'))
 
 WebUI.setText(findTestObject('Object Repository/KPI_Appraisal/Evaluate_By_Supervisor/Page_ReviewMe/textarea_497'), 'I appreciate your try hard.')
 

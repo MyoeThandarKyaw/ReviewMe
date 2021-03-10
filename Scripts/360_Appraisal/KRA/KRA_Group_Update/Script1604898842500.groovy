@@ -18,12 +18,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-test/users/login')
+WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-gbs-test/kragroup')
 
-WebUI.setText(findTestObject('Object Repository/KRA_Group_Update/Page_ReviewMe/input_Sign in to ReviewMe_username'), 'waiwaihlaing')
+WebUI.setText(findTestObject('Object Repository/KRA_Group_Update/Page_ReviewMe/input_Sign in to ReviewMe_username'), 'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/KRA_Group_Update/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
-    'a43CdjUP15hkxLgrareRvw==')
+WebUI.setText(findTestObject('Object Repository/KRA_Group_Update/Page_ReviewMe/input_Sign in to ReviewMe_password'), 'Root@123')
 
 WebUI.click(findTestObject('Object Repository/KRA_Group_Update/Page_ReviewMe/button_Sign in'))
 
@@ -34,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/KRA_Group_Update/Page_ReviewMe/a_K
 WebUI.click(findTestObject('Object Repository/KRA_Group_Update/Page_ReviewMe/a_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/KRA_Group_Update/Page_ReviewMe/textarea_Description_questioncategorydescription'), 
-    'Understand how to make successful business decisions through the model (base on law and ethics). To study more about business management.   ')
+    'To understand the important of brand management')
 
 WebUI.click(findTestObject('Object Repository/KRA_Group_Update/Page_ReviewMe/button_Save'))
 

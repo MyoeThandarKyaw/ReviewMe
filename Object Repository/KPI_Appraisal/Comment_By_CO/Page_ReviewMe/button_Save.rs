@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btn_save']</value>
+         <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>

@@ -19,25 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-gbs-test/users/login')
+WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/review/addperformanceappraisal')
 
 WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
     'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
-    'rXz5fG76N1x/0XfTppooEQ==')
+WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
+    '1qaz2wsx')
 
 WebUI.click(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/button_Sign in'))
 
-WebUI.navigateToUrl('http://18.139.70.17:7070/reviewme-gbs-test/review/addperformanceappraisal')
+WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/review/addperformanceappraisal')
 
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/input_Title_title'))
 
-WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/input_61'), 'PA for Microfinance GBS Branch')
+WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/input_61'), 'PA for Microfinance Mone Ywar Branch')
 
-WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/textarea_Optional_description'), 'PA for Microfinance GBS Branch')
+WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/textarea_Optional_description'), 'PA for Microfinance Mone Ywar Branch')
 
 WebUI.click(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/input_61'))
 
@@ -54,7 +54,7 @@ WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Page_Revie
 WebUI.click(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/input_Iteration 1 label_iterationNames'))
 
 WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/input_Iteration 1 label_iterationNames'), 
-    'Second-Term')
+    'Mid-Year')
 
 WebUI.click(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/button_Next'))
 
