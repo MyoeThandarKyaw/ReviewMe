@@ -12,15 +12,17 @@
    <data>thwenandiaung 1qaz2wsx</data>
    <data>thetmonthant 1qaz2wsx</data>
    <data>yelwinaung 1qaz2wsx</data>
+   <data>zinzulythin 1qaz2wsx</data>
+   <data>khinhninwai Root%40123</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>emp_name</name>
-      <size>4</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>4</size>
+      <size>6</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

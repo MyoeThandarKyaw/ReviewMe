@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_10 Mar 202110 Mar 2022</name>
+   <name>label_5</name>
    <tag></tag>
-   <elementGuidId>bd1b629c-2651-4e53-9ab7-32a3c672b4e7</elementGuidId>
+   <elementGuidId>09365eb5-e0c7-4664-a664-dc0bdc064a85</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[2]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#review_period_2021_03_10_2022_03_10</value>
+         <key>XPATH</key>
+         <value>//td[@id='142']/div[5]/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,28 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>dropdown-btn</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>review_period_2021_03_10_2022_03_10</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>filterAppraisalsByReviewPeriod('2021-03-10', '2022-03-10')</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,48 +29,55 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                             10 Mar 2021 – 10 Mar 2022                        </value>
+                                                                5 မှတ်                                                            </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;review_period_2021_03_10_2022_03_10&quot;)</value>
+      <value>id(&quot;142&quot;)/div[@class=&quot;radio&quot;]/label[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@id='review_period_2021_03_10_2022_03_10']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='review_periods_panel']/div[2]/div/button[6]</value>
+      <value>//td[@id='142']/div[5]/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='•'])[5]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See definitions'])[2]/following::label[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='•'])[6]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='–'])[3]/following::label[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='x Clear selection'])[2]/preceding::label[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='5 မှတ်']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[6]</value>
+      <value>//div[5]/label</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_10 Mar 202110 Mar 2022</name>
+   <name>select_0                                   _79a752_1_2_3_4_5</name>
    <tag></tag>
-   <elementGuidId>bd1b629c-2651-4e53-9ab7-32a3c672b4e7</elementGuidId>
+   <elementGuidId>429a992d-1313-4feb-900d-fd223f2cac7a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[2]</value>
+         <value>//select[@name='questionWeight[5][weight]']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#review_period_2021_03_10_2022_03_10</value>
+         <value>select[name=&quot;questionWeight[5][weight]&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,28 +21,21 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>dropdown-btn</value>
+      <value>form-control input-sm</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>review_period_2021_03_10_2022_03_10</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>filterAppraisalsByReviewPeriod('2021-03-10', '2022-03-10')</value>
+      <value>questionWeight[5][weight]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,48 +43,64 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                             10 Mar 2021 – 10 Mar 2022                        </value>
+                                    0%
+                                    12.5%
+                                    25%
+                                    37.5%
+                                    50%
+                                    62.5%
+                                    75%
+                                    87.5%
+                                    100%
+                                </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;review_period_2021_03_10_2022_03_10&quot;)</value>
+      <value>id(&quot;question_container&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-2&quot;]/select[@class=&quot;form-control input-sm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='review_period_2021_03_10_2022_03_10']</value>
+      <value>//select[@name='questionWeight[5][weight]']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='review_periods_panel']/div[2]/div/button[6]</value>
+      <value>//div[@id='question_container']/div[8]/div[3]/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='•'])[5]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Project/ အလုပ် ပိုမိုတိုးတက်စေရန် အကြံဉာဏ်ကောင်းများတွေးတောပေးနိုင်သည်။'])[2]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='•'])[6]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='အလုပ်အား စိတ်ဝင်စား နားလည်ခြင်း'])[6]/following::select[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Final check'])[2]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[6]</value>
+      <value>//div[8]/div[3]/select</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_10 Mar 202110 Mar 2022</name>
+   <name>input_Iteration 1 label_iterationNames</name>
    <tag></tag>
-   <elementGuidId>bd1b629c-2651-4e53-9ab7-32a3c672b4e7</elementGuidId>
+   <elementGuidId>5106fa85-8a77-4e26-87ff-bc3f469e8107</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[2]</value>
+         <value>//input[@name='iterationNames[]']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#review_period_2021_03_10_2022_03_10</value>
+         <value>input[name=&quot;iterationNames[]&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,77 +21,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>dropdown-btn</value>
+      <value>form-control iteration-names</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>review_period_2021_03_10_2022_03_10</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>filterAppraisalsByReviewPeriod('2021-03-10', '2022-03-10')</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>
-                             10 Mar 2021 – 10 Mar 2022                        </value>
+      <value>iterationNames[]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;review_period_2021_03_10_2022_03_10&quot;)</value>
+      <value>id(&quot;iteration_name_container&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/input[@class=&quot;form-control iteration-names&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='review_period_2021_03_10_2022_03_10']</value>
+      <value>//input[@name='iterationNames[]']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='review_periods_panel']/div[2]/div/button[6]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='•'])[5]/following::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='•'])[6]/preceding::button[1]</value>
+      <value>//div[@id='iteration_name_container']/div/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[6]</value>
+      <value>//div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

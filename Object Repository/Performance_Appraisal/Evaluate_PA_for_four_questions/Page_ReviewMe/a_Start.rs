@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_10 Mar 202110 Mar 2022</name>
+   <name>a_Start</name>
    <tag></tag>
-   <elementGuidId>bd1b629c-2651-4e53-9ab7-32a3c672b4e7</elementGuidId>
+   <elementGuidId>4b1cd2d7-84c6-4dd8-93ae-fe8188355425</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[2]</value>
+         <key>CSS</key>
+         <value>a.btn.btn-primary</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#review_period_2021_03_10_2022_03_10</value>
+         <key>XPATH</key>
+         <value>//div[@id='collapse_pending_pa_about_me']/div/div/div/div/div[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,77 +21,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/gbs-test/reviewpage/self-evaluate-performance-appraisal/10/432/432</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>dropdown-btn</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>review_period_2021_03_10_2022_03_10</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>filterAppraisalsByReviewPeriod('2021-03-10', '2022-03-10')</value>
+      <value>btn btn-primary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                             10 Mar 2021 – 10 Mar 2022                        </value>
+      <value>Start</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;review_period_2021_03_10_2022_03_10&quot;)</value>
+      <value>id(&quot;collapse_pending_pa_about_me&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;list-group&quot;]/div[@class=&quot;list-group-item&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6&quot;]/a[@class=&quot;btn btn-primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@id='review_period_2021_03_10_2022_03_10']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='review_periods_panel']/div[2]/div/button[6]</value>
+      <value>//div[@id='collapse_pending_pa_about_me']/div/div/div/div/div[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Start')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='•'])[5]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Self-evaluation'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='•'])[6]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status:'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Start']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/gbs-test/reviewpage/self-evaluate-performance-appraisal/10/432/432')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[6]</value>
+      <value>//div[2]/div/div/div/div/div[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

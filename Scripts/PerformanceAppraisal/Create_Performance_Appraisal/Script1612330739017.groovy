@@ -35,9 +35,9 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/input_Title_title'))
 
-WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/input_61'), 'PA for Microfinance Mone Ywar Branch')
+WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/input_61'), 'PA for Microfinance Shwe Pyi Thar Branch')
 
-WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/textarea_Optional_description'), 'PA for Microfinance Mone Ywar Branch')
+WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/textarea_Optional_description'), 'PA for Microfinance Shwe Pyi Thar Branch')
 
 WebUI.click(findTestObject('Object Repository/Performance_Appraisal/Page_ReviewMe/input_61'))
 
