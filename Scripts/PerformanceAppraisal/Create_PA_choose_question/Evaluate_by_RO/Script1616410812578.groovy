@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/users/login')
 
 WebUI.setText(findTestObject('Object Repository/FourQuestions/Evaluate_by_RO/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'sumyathtet')
+    'thwenandiaung')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/FourQuestions/Evaluate_by_RO/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     'a43CdjUP15hkxLgrareRvw==')
@@ -35,27 +35,37 @@ WebUI.click(findTestObject('Object Repository/FourQuestions/Evaluate_by_RO/Page_
 
 WebUI.click(findTestObject('Object Repository/FourQuestions/Evaluate_by_RO/Page_ReviewMe/a_Start'))
 
-WebUI.click(findTestObject('Object Repository/FourQuestions/Evaluate_by_RO/Page_ReviewMe/input_See definitions_q_169'))
+WebUI.click(findTestObject('FourQuestions/Evaluate_by_RO/RO_Evaluation_by_VSK/Page_ReviewMe/input_See definitions_q_202'))
 
-WebUI.setText(findTestObject('Object Repository/FourQuestions/Evaluate_by_RO/Page_ReviewMe/textarea_Try the best to get target_reviewe_805b0a'), 
-    'Try the best to get result')
+WebUI.setText(findTestObject('FourQuestions/Evaluate_by_RO/RO_Evaluation_by_VSK/Page_ReviewMe/textarea_Try the best to get target for year end (VSK Branch)_reviewerComment202'), 
+    'Very Nice!')
 
-WebUI.click(findTestObject('Object Repository/FourQuestions/Evaluate_by_RO/Page_ReviewMe/input_See definitions_q_142'))
+WebUI.click(findTestObject('FourQuestions/Evaluate_by_RO/RO_Evaluation_by_VSK/Page_ReviewMe/input__q_203'))
 
-WebUI.setText(findTestObject('Object Repository/FourQuestions/Evaluate_by_RO/Page_ReviewMe/textarea_Try the best to get target_reviewe_c9dacc'), 
-    'Try the best to get result')
+WebUI.setText(findTestObject('FourQuestions/Evaluate_by_RO/RO_Evaluation_by_VSK/Page_ReviewMe/textarea_Try the best to get target for year end (VSK Branch)_reviewerComment203'), 
+    'Very Nice!')
 
-WebUI.click(findTestObject('Object Repository/FourQuestions/Evaluate_by_RO/Page_ReviewMe/input_See definitions_q_141'))
+WebUI.click(findTestObject('FourQuestions/Evaluate_by_RO/RO_Evaluation_by_VSK/Page_ReviewMe/input_See definitions_q_204'))
 
-WebUI.setText(findTestObject('Object Repository/FourQuestions/Evaluate_by_RO/Page_ReviewMe/textarea_Try the best to get target_reviewe_9b3d22'), 
-    'Try the best to get result')
+WebUI.setText(findTestObject('FourQuestions/Evaluate_by_RO/RO_Evaluation_by_VSK/Page_ReviewMe/textarea_Try the best to get target for year end (VSK Branch)_reviewerComment204'), 
+    'Very Nice!')
 
-WebUI.click(findTestObject('Object Repository/FourQuestions/Evaluate_by_RO/Page_ReviewMe/input_See definitions_q_140'))
+WebUI.click(findTestObject('FourQuestions/Evaluate_by_RO/RO_Evaluation_by_VSK/Page_ReviewMe/input_See definitions_q_206'))
 
-WebUI.setText(findTestObject('Object Repository/FourQuestions/Evaluate_by_RO/Page_ReviewMe/textarea_Try the best to get target_reviewe_2c7733'), 
-    'Try the best to get result')
+WebUI.setText(findTestObject('FourQuestions/Evaluate_by_RO/RO_Evaluation_by_VSK/Page_ReviewMe/textarea_Try the best to get target for year end (VSK Branch)_reviewerComment206'), 
+    'Very Nice!')
 
-WebUI.click(findTestObject('Object Repository/FourQuestions/Evaluate_by_RO/Page_ReviewMe/input_Clear_btnSave'))
+WebUI.click(findTestObject('FourQuestions/Evaluate_by_RO/RO_Evaluation/input_Clear_btnConfirm'))
+
+WebUI.click(findTestObject('FourQuestions/Evaluate_by_RO/RO_Evaluation_by_VSK/Page_ReviewMe/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset'))
+
+WebUI.setText(findTestObject('FourQuestions/Evaluate_by_RO/RO_Evaluation_by_VSK/Page_ReviewMe/html_Rich Text Editor'), 'Prepare Weekly and Monthly plan')
+
+WebUI.click(findTestObject('FourQuestions/Evaluate_by_RO/RO_Evaluation/RO_Comments_Box/Page_ReviewMe/input_Clear_btnConfirm'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('FourQuestions/Evaluate_by_RO/Page_ReviewMe/Page_ReviewMe/Page_ReviewMe/button_Yes, go ahead'))
 
 WebUI.click(findTestObject('Object Repository/FourQuestions/Evaluate_by_RO/Page_ReviewMe/button_OK'))
 

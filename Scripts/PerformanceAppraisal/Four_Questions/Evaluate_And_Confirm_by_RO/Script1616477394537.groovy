@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/users/login')
 
 WebUI.setText(findTestObject('Object Repository/FourQuestions/Evaluate_And_Confirm_by_RO/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'sumyathtet')
+    'phyomama')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/FourQuestions/Evaluate_And_Confirm_by_RO/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     'a43CdjUP15hkxLgrareRvw==')
