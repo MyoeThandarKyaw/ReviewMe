@@ -6,12 +6,12 @@
    <elementGuidId>639b460a-8740-4cb8-97ad-e55d0e4398a7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#cb_question_template</value>
+         <key>XPATH</key>
+         <value>//div[4]/div/div/div[2]/div/div[2]/div/div[2]/select</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[4]/div/div/div[2]/div/div[2]/div/div/select</value>
+         <key>CSS</key>
+         <value>#cb_question_template</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

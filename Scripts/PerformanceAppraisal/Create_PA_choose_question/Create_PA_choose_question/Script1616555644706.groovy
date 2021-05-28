@@ -34,10 +34,10 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/review/addperformanceappraisal')
 
 WebUI.setText(findTestObject('Performance_Appraisal/Create_PA_choose_question/Create_PA_choose_question/Page_ReviewMe/Page_ReviewMe/input_100'), 
-    ' PA for HR team (Moe Goke Branch)')
+    ' PA for HR team (Khin Oo Branch)')
 
 WebUI.setText(findTestObject('Performance_Appraisal/Create_Performance_Appraisal_with_two_iteration/Page_ReviewMe/textarea_Optional_description'), 
-    ' PA for HR team (Moe Goke Branch)')
+    ' PA for HR team (Khin Oo Branch)')
 
 WebUI.sendKeys(findTestObject('Object Repository/Performance_Appraisal/Create_Performance_Appraisal_with_two_iteration/Page_ReviewMe/input_No. of iterations_frequency'), 
     Keys.chord(Keys.CONTROL, 'a'))
@@ -46,7 +46,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Performance_Appraisal/Create_Pe
     Keys.chord(Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Create_PA_choose_question/Create_PA_choose_question/Page_ReviewMe/input_No. of iterations_frequency'), 
-    '2')
+    '3')
 
 //WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Create_PA_choose_question/Create_PA_choose_question/Page_ReviewMe/input_Iteration 1 label_iterationNames'), 
 //    'Year-End')

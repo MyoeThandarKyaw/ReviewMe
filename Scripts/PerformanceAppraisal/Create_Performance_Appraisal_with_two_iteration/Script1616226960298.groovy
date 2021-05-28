@@ -36,10 +36,10 @@ WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/review/addperfor
 WebUI.click(findTestObject('Object Repository/Performance_Appraisal/Create_Performance_Appraisal_with_two_iteration/Page_ReviewMe/input_Title_title'))
 
 WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Create_Performance_Appraisal_with_two_iteration/Page_ReviewMe/input_65'), 
-    ' PA for HR team (Ma Yan Kone Branch)')
+    ' PA for HR team 22-May-2021 To 22-May-2021')
 
 WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Create_Performance_Appraisal_with_two_iteration/Page_ReviewMe/textarea_Optional_description'), 
-    ' PA for HR team (Ma Yan Kone Branch)')
+    ' PA for HR team 22-May-2021 To 22-May-2021')
 
 WebUI.sendKeys(findTestObject('Object Repository/Performance_Appraisal/Create_Performance_Appraisal_with_two_iteration/Page_ReviewMe/input_No. of iterations_frequency'), 
     Keys.chord(Keys.CONTROL, 'a'))
@@ -60,14 +60,13 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Performance_Appraisal/Create_Performance_Appraisal_with_two_iteration/Page_ReviewMe/button_Next'))
 
 WebUI.setText(findTestObject('Object Repository/Performance_Appraisal/Create_Performance_Appraisal_with_two_iteration/Page_ReviewMe/input_Name_form-control'), 
-    'Su Myat Htet')
+    'Me Me Win')
 
 WebUI.click(findTestObject('Object Repository/Performance_Appraisal/Create_Performance_Appraisal_with_two_iteration/Page_ReviewMe/td_Name_select-checkbox dtr-control'))
 
 WebUI.click(findTestObject('Object Repository/Performance_Appraisal/Create_Performance_Appraisal_with_two_iteration/Page_ReviewMe/button_Next_1'))
 
-WebUI.selectOptionByValue(findTestObject('Performance_Appraisal/Question_Template_Obj/Page_ReviewMe/select_SelectTemplate APerformance Appraisal For all Employees'), 
-    '1', true)
+WebUI.click(findTestObject('Performance_Appraisal/Create_Performance_Appraisal_with_two_iteration/ChooseQuestionTemplate/select_SelectTemplate APerformance Appraisal For all Employees'))
 
 WebUI.click(findTestObject('Object Repository/Performance_Appraisal/Create_Performance_Appraisal_with_two_iteration/Page_ReviewMe/input_Templates_btn_template_filter'))
 
