@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_Test area (correction)</name>
+   <name>select_SelectSales  MarketingAccountingTest_5dd17c</name>
    <tag></tag>
-   <elementGuidId>6f3976d6-6e1f-4bfa-91a0-bca2b77bfa8f</elementGuidId>
+   <elementGuidId>ba26dd79-27f1-4a23-9b10-318f13a7e10f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#select2-training_areas-result-8v6a-5</value>
+         <value>#edit_training_area</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[2]/ul/li[2]</value>
+         <value>//select[@id='edit_training_area']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,104 +21,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>name</name>
       <type>Main</type>
-      <value>select2-results__option select2-results__option--highlighted</value>
+      <value>training_area_id</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>select2-training_areas-result-8v6a-5</value>
+      <value>edit_training_area</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>class</name>
       <type>Main</type>
-      <value>option</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-selected</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-select2-id</name>
-      <type>Main</type>
-      <value>select2-training_areas-result-8v6a-5</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Test area (correction)</value>
+      <value>SelectSales &amp; MarketingAccountingTest area (correction)Leadership &amp; ManagementPerformance TrackingBankingWorkplace Ethics AwarenessManagerial And Supervisory SkillsGoogle Project Management</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select2-training_areas-result-8v6a-5&quot;)</value>
+      <value>id(&quot;edit_training_area&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//li[@id='select2-training_areas-result-8v6a-5']</value>
+      <value>//select[@id='edit_training_area']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='select2-training_areas-results']/li[3]</value>
+      <value>//form[@id='frm_edit_active_requirement']/div[3]/div/div/div/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounting'])[3]/following::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Training area'])[3]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales &amp; Marketing'])[6]/following::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit requirement'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leadership &amp; Management'])[3]/preceding::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Performance Tracking'])[3]/preceding::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estimated hours'])[9]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span[2]/ul/li[3]</value>
+      <value>//div/div/select</value>
    </webElementXpaths>
 </WebElementEntity>

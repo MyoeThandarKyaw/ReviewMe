@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Optional_attachments</name>
+   <name>attachments</name>
    <tag></tag>
    <elementGuidId>8b309eb9-41a0-4e81-aaf7-89f7574d7d3d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/form/div[7]/input</value>
+         <value>//div[@id='popover744729']/div[2]/form/div[7]/input</value>
       </entry>
       <entry>
          <key>CSS</key>

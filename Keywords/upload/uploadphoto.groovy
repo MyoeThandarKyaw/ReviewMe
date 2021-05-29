@@ -29,6 +29,7 @@ public class uploadphoto {
 	def uploadFile2 (TestObject to, String file1, String file2 , String file3, String file4) {
 		WebUI.click(to)
 		WebUI.delay(3)
+		//StringSelection ss = new StringSelection("\""+file1+"\"" +"\""+ file2 );
 		StringSelection ss = new StringSelection("\""+file1+"\"" +"\""+ file2 +"\""+ file3+"\""+ file4 );
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
 		Robot robot = new Robot();
@@ -40,5 +41,5 @@ public class uploadphoto {
 		robot.keyRelease(KeyEvent.VK_CONTROL)
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
-}
+	}
 }
