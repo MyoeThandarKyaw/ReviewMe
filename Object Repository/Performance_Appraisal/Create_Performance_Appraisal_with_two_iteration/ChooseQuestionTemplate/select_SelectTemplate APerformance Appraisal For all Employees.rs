@@ -6,12 +6,16 @@
    <elementGuidId>d4b71af3-fc17-484e-9d72-462bf9210aa0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/div/div[2]/div/div[2]/div/div/select</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#cb_question_template</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='cb_question_template']</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'group' and @id = 'cb_question_template' and (text() = 'SelectTemplate A	Performance Appraisal For all EmployeesLeader PAF (GBS)Performance Appraisal for EmployeesPerformance Appraisal TemplatePerformance Appraisal Questions-PA Questions TemplatePA-Question Template testingPA question for HR dept' or . = 'SelectTemplate A	Performance Appraisal For all EmployeesLeader PAF (GBS)Performance Appraisal for EmployeesPerformance Appraisal TemplatePerformance Appraisal Questions-PA Questions TemplatePA-Question Template testingPA question for HR dept')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

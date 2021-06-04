@@ -6,12 +6,12 @@
    <elementGuidId>73dd8c5e-9aba-4c11-b91c-ba05de932790</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#reviewee_comment_224</value>
+         <key>XPATH</key>
+         <value>//textarea[@id='reviewer_comment_222']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='reviewee_comment_222']</value>
+         <key>CSS</key>
+         <value>#reviewee_comment_224</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

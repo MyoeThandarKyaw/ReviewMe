@@ -30,32 +30,39 @@ WebUI.click(findTestObject('Evaluation_for_five_questions/PA_Evaluation_by_RO/bu
 
 WebUI.maximizeWindow()
 
+WebUI.click(findTestObject('PA/Evaluate_Performance_Appraisal/Page_ReviewMe/button_10 Mar 202110 Mar 2022'))
+
 WebUI.click(findTestObject('Evaluation_for_five_questions/PA_Evaluation_by_RO/a_Start'))
 
 WebUI.click(findTestObject('Evaluation_for_five_questions/PA_Evaluation_by_RO/input_See definitions_q_222'))
 
 WebUI.setText(findTestObject('Evaluation_for_five_questions/PA_Evaluation_by_RO/textarea_Please provide a reason for pickin_274b4e'), 
-    '')
+    'Try the best!')
 
 WebUI.click(findTestObject('Evaluation_for_five_questions/PA_Evaluation_by_RO/input_See definitions_q_223'))
 
 WebUI.setText(findTestObject('Evaluation_for_five_questions/PA_Evaluation_by_RO/textarea_Please provide a reason for pickin_42c44a'), 
-    '')
+    'Try the best!')
 
 WebUI.click(findTestObject('Evaluation_for_five_questions/PA_Evaluation_by_RO/input_See definitions_q_224'))
 
 WebUI.setText(findTestObject('Evaluation_for_five_questions/PA_Evaluation_by_RO/textarea_Please provide a reason for pickin_73b738'), 
-    '')
+    'Try the best!')
 
 WebUI.click(findTestObject('Evaluation_for_five_questions/PA_Evaluation_by_RO/input_See definitions_q_225'))
 
 WebUI.setText(findTestObject('Evaluation_for_five_questions/PA_Evaluation_by_RO/textarea_Please provide a reason for pickin_9d1927'), 
-    '')
+    'Try the best!')
 
 WebUI.click(findTestObject('Evaluation_for_five_questions/PA_Evaluation_by_RO/input_See definitions_q_226'))
 
 WebUI.setText(findTestObject('Evaluation_for_five_questions/PA_Evaluation_by_RO/textarea_Please provide a reason for pickin_f82110'), 
-    '')
+    'Try the best!')
+
+WebUI.click(findTestObject('Performance_Appraisal/Evaluate_PA_template_question(5)/RO_Comment_Obj/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset'))
+
+WebUI.setText(findTestObject('Performance_Appraisal/Evaluate_PA_template_question(5)/RO_Comment_Obj/html_Rich Text Editor'), 
+    'Prepare weekly and monthly plan')
 
 WebUI.click(findTestObject('Evaluation_for_five_questions/PA_Evaluation_by_employee/Confirm_Button_Obj/input_Clear_btnConfirm'))
 

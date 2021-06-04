@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@name='questionWeight[1][weight]']</value>
+         <value>//div[3]/div[3]/select</value>
       </entry>
       <entry>
          <key>CSS</key>

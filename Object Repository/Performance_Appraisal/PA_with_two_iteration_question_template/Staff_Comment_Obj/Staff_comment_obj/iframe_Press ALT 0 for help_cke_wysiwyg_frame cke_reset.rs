@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='cke_1_contents']/iframe</value>
+         <value>//div[@id='cke_2_contents']/iframe</value>
       </entry>
       <entry>
          <key>CSS</key>

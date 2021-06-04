@@ -6,12 +6,12 @@
    <elementGuidId>6fcc9de5-26aa-4d8b-9106-a07cfd4eb2dd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-primary</value>
+         <key>XPATH</key>
+         <value>//td[4]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='collapse_pending_pa_about_me']/div/div/div/div/div[2]/a</value>
+         <key>CSS</key>
+         <value>a.btn.btn-primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

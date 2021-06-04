@@ -6,12 +6,12 @@
    <elementGuidId>0e88e810-6f36-4b7b-a031-cda7124d3fc2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#review_period_2021_03_10_2022_03_10</value>
+         <key>XPATH</key>
+         <value>//button[16]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[2]</value>
+         <key>CSS</key>
+         <value>#review_period_2021_03_10_2022_03_10</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

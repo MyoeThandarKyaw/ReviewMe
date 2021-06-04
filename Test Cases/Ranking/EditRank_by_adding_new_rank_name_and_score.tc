@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EditRank_by_adding_new_rank_name_and_score</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab41d4d1-510c-4f1a-bab7-57d94fa5a93c</testCaseGuid>
+</TestCaseEntity>

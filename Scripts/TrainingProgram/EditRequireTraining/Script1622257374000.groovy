@@ -31,13 +31,18 @@ WebUI.setEncryptedText(findTestObject('Object Repository/TrainingProgram/EditReq
 
 WebUI.click(findTestObject('Object Repository/TrainingProgram/EditRequireTraining/Page_ReviewMe/button_Sign in'))
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/TrainingProgram/EditRequireTraining/Page_ReviewMe/a_My direct reports'))
 
 WebUI.click(findTestObject('Object Repository/TrainingProgram/EditRequireTraining/Page_ReviewMe/a_Training info'))
 
-WebUI.switchToWindowTitle('ReviewMe')
+WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/employee/employeeprofile/14/tab_training')
 
-WebUI.click(findTestObject('Object Repository/TrainingProgram/EditRequireTraining/Page_ReviewMe/a_Edit'))
+//WebUI.scrollToElement(findTestObject('TrainingProgram/EditRequireTraining/Edit_Obj/a_Edit'), 3)
+WebUI.scrollToPosition(50, 60)
+
+WebUI.click(findTestObject('TrainingProgram/EditRequireTraining/Edit_Obj/a_Edit'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/TrainingProgram/EditRequireTraining/Page_ReviewMe/select_SelectSales  MarketingAccountingTest_5dd17c'), 
     '11', true)

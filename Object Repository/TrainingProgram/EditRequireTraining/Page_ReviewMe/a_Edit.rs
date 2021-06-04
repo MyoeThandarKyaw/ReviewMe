@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='active_requirement_table']/tbody/tr/td[7]/a</value>
+         <value>//td[7]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

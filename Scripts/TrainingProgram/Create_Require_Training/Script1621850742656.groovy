@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/users/login')
 
 WebUI.setText(findTestObject('Object Repository/TrainingProgram/Create_Require_Training/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'phyomama')
+    'tinnilar')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/TrainingProgram/Create_Require_Training/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     'a43CdjUP15hkxLgrareRvw==')
@@ -38,7 +38,7 @@ WebUI.click(findTestObject('Object Repository/TrainingProgram/Create_Require_Tra
 
 WebUI.switchToWindowTitle('ReviewMe')
 
-WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/employee/employeeprofile/4369/tab_training')
+WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/employee/employeeprofile/14/tab_training')
 
 WebUI.click(findTestObject('Object Repository/TrainingProgram/Create_Require_Training/Page_ReviewMe/span_Select_select2-selection__arrow'))
 
@@ -52,7 +52,7 @@ WebUI.rightClick(findTestObject('Object Repository/TrainingProgram/Create_Requir
 //WebUI.click(findTestObject('Object Repository/TrainingProgram/Create_Require_Training/Page_ReviewMe/td'))
 WebUI.setText(findTestObject('TrainingProgram/Create_Require_Training/Training_Date/input_Details_start_by'), '05/24/2021')
 
-WebUI.setText(findTestObject('TrainingProgram/Create_Require_Training/Training_Date/input_Details_due_date'), '05/29/2021')
+WebUI.setText(findTestObject('TrainingProgram/Create_Require_Training/Training_Date/input_Details_due_date'), '06/30/2021')
 
 WebUI.click(findTestObject('Object Repository/TrainingProgram/Create_Require_Training/Page_ReviewMe/button_Save'))
 

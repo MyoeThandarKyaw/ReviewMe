@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='review_period_2020_10_01_2021_09_30']</value>
+         <value>//button[13]</value>
       </entry>
       <entry>
          <key>CSS</key>
