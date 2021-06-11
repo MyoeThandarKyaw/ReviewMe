@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>RecordTrainingWithExternalExecution</name>
+   <name>RecordTrainingWithExternalInstitution</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ffe19985-3c77-4685-9204-7745ec5bf8c2</testCaseGuid>

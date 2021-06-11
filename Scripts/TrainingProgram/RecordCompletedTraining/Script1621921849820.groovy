@@ -24,7 +24,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/')
 
 WebUI.setText(findTestObject('TrainingProgram/RecordCompletedTraining/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'nyomeoo')
+    'waiwaihlaing')
 
 WebUI.setEncryptedText(findTestObject('TrainingProgram/RecordCompletedTraining/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
     'a43CdjUP15hkxLgrareRvw==')
@@ -51,7 +51,8 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Object Rep
 
 WebUI.executeJavaScript('arguments[0].value = \'2021-05-26\'', Arrays.asList(element))
 
-WebElement element1 = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/TrainingProgram/RecordCompletedTraining/Complete_date/date_completed'),30)
+WebElement element1 = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/TrainingProgram/RecordCompletedTraining/Complete_date/date_completed'), 
+    30)
 
 WebUI.executeJavaScript('arguments[0].value = \'2021-05-29\'', Arrays.asList(element1))
 

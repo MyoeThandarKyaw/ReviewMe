@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Start</name>
+   <name>button_Sign in</name>
    <tag></tag>
-   <elementGuidId>6b731303-7d29-42df-8384-6088bd1b5a51</elementGuidId>
+   <elementGuidId>ee09e9cd-1102-41ff-b95f-4e39c2af0aa9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-primary</value>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='collapse_pending_pa_about_my_indirect_reports']/div/div/div[2]/div[2]/table/tbody/tr/td[4]/a</value>
+         <key>CSS</key>
+         <value>button.btn.btn-md.btn-primary.btn-block</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/gbs-test/reviewpage/evaluate-performance-appraisal-for-countersigning-officer/42/3257/3255</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary</value>
+      <value>btn btn-md btn-primary btn-block</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Start</value>
+      <value>Sign in</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;collapse_pending_pa_about_my_indirect_reports&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;performance-appraisal-2021-03-24-2022-03-24&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-9&quot;]/table[@class=&quot;table table-striped table-bordered&quot;]/tbody[1]/tr[1]/td[4]/a[@class=&quot;btn btn-primary&quot;]</value>
+      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4 col-md-offset-4&quot;]/div[@class=&quot;login-panel panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/form[1]/button[@class=&quot;btn btn-md btn-primary btn-block&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='collapse_pending_pa_about_my_indirect_reports']/div/div/div[2]/div[2]/table/tbody/tr/td[4]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Start')]</value>
+      <value>//button[@type='submit']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coordinator'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in to ReviewMe'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Start']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='version 0.1'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/gbs-test/reviewpage/evaluate-performance-appraisal-for-countersigning-officer/42/3257/3255')]</value>
+      <value>//*/text()[normalize-space(.)='Sign in']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[4]/a</value>
+      <value>//button</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -24,10 +24,10 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://review-me.ahtaroo.com:7070/gbs-test/users/login')
 
 WebUI.setText(findTestObject('Object Repository/TrainingProgram/RecordTrainingWithExternalExecution/Page_ReviewMe/input_Sign in to ReviewMe_username'), 
-    'htethtetaungL4')
+    'waiwaihlaing')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/TrainingProgram/RecordTrainingWithExternalExecution/Page_ReviewMe/input_Sign in to ReviewMe_password'), 
-    'rXz5fG76N1x/0XfTppooEQ==')
+    'a43CdjUP15hkxLgrareRvw==')
 
 WebUI.click(findTestObject('Object Repository/TrainingProgram/RecordTrainingWithExternalExecution/Page_ReviewMe/button_Sign in'))
 
